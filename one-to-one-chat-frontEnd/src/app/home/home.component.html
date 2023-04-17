@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="container">
+
+                <form>
+                    <div class="form-group">
+                        <label>User Name</label>
+                        <input type="username" class="form-control" id="username" name="username"
+                            [(ngModel)]="username">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Room</label>
+                        <input type="text" class="form-control" id="password" name="password" [(ngModel)]="room">
+                    </div>
+
+                    <button (click)="submit()" type="submit" class="btn btn-primary"  >Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
